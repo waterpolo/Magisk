@@ -38,7 +38,7 @@ If your device does **NOT** have boot ramdisk, you need a copy of the `recovery.
 You should be able to extract either of them from official firmware packages, your custom ROM zip (if using one), or go to [XDA-Developers](https://forum.xda-developers.com/) and seek for resources, guides, discussions, or ask for help in your device's forum.
 
 - Copy the boot/recovery image to your device
-- Press the **Install** button in the Magisk card
+- Press the **Install** button in the Magisk Manager
 - If you are patching a recovery image, make sure **"Recovery Mode"** is checked in options.<br>In most cases it should already be automatically checked.
 - Choose **"Select and Patch a File"** in method, and select the stock boot/recovery image
 - Magisk Manager will patch the image to `[Internal Storage]/Download/magisk_patched.img`.
@@ -102,7 +102,8 @@ If you think the bootloader is fully unlocked, it is actually not! Samsung intro
 
 - Use either [Frija](https://forum.xda-developers.com/s10-plus/how-to/tool-frija-samsung-firmware-downloader-t3910594) or [Samloader](https://forum.xda-developers.com/s10-plus/how-to/tool-samloader-samfirm-frija-replacement-t4105929) to download the latest firmware zip of your device directly from Samsung servers.
 -  Unzip the firmware and copy the `AP` tar file to your device. It is normally named as `AP_[device_model_sw_ver].tar.md5`
-- Press the **Install** button in the Magisk card
+- Install Magisk Manager
+- Press the **Install** button in the Magisk Manager
 - If your device does **NOT** have boot ramdisk, make sure **"Recovery Mode"** is checked in options.<br>In most cases it should already be automatically checked.
 - Choose **"Select and Patch a File"** in method, and select the `AP` tar file
 - Magisk Manager will patch the whole firmware file to `[Internal Storage]/Download/magisk_patched.tar`
